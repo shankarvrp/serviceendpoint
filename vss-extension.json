@@ -1,0 +1,18 @@
+{
+"manifestVersion": 1,
+  "id": "service-endpoint-tutorial",
+  "version": "0.1.1",
+  "name": "Sample extension that leverages a service endpoint",
+  "description": "A sample Azure DevOps extension which shows how to create a custom endpoint and dynamic build task parameters taking value from a REST API.",
+  "publisher": "sanaraya",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],  
+  "files": [
+    {
+      "path": "BuildTaskFolder"
+    }
+  ]
+}
